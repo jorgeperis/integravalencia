@@ -1,3 +1,59 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'PT Sans Narrow';
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+.orange {
+  color: #e88204;
+}
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+.header_image {
+  margin: 35px 0;
+}
+.header_image a img {
+  display: block;
+  margin: 0 auto;
+}
+.sections ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url('line.png') repeat-x bottom left;
+}
+.sections ul li {
+  float: left;
+  margin: 15px;
+  font-weight: 800;
+  font-size: 1.6em;
+}
+.line img{
+  width: 100%;
+  margin-top: -20px;
+}
+.content {
+  width: 100%;
+}
+.main-content {
+  width: 65%;
+  float: left;
+  color: #646567;
+  font-size: 1.2em;
+  border-right: 1px solid #646567;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+.sidebar {
+  width: 25%;
+  float: right;
+}
