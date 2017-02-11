@@ -1,0 +1,18 @@
+doctype 5
+html xmlns="http://www.w3.org/1999/xhtml" lang="es"
+head
+  title
+    = "Integra Valencia"
+  = stylesheet_link_tag :application
+  = csrf_meta_tags
+
+body
+  .wrapper
+    .header
+      = render 'layouts/header'
+    .content
+      = yield
+      .sidebar
+        = render 'layouts/sidebar'
+
+  = javascript_include_tag :application
